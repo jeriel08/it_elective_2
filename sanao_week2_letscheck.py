@@ -12,5 +12,5 @@ print(f"Output in list: {input_to_list}")
 
 # Problem 3
 user_input3 = input("\nEnter a phrase or write a sentence: ")
-reversed_string = ' '.join(user_input3.split()[::-1])  # Split the string into words, reverse, and join them back
+reversed_string = ' '.join(user_input3.split()[::-1])
 print("Output:", reversed_string)

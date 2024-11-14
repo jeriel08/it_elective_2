@@ -21,6 +21,7 @@ for question, answer in questions.items():
         if user_answer.lower() == answer.lower():
             print("Correct!")
             score += 1
+            print(f"Score: {score}")
             break
         else:
             attempts -= 1
@@ -29,4 +30,4 @@ for question, answer in questions.items():
         if attempts == 0:
             print(f"The correct answer was: {answer}")
 
-print(f"\nFinal Score: {score}/{len(questions)}")
+print(f"\nFinal Score: {score}/{len(questions)} 👌")
